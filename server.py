@@ -4,9 +4,9 @@ import colorama
 from colorama import Fore, Style
 import config
 
-header_length = 1024
-ip = config.IP_ADDRESS#"127.0.0.1"
-port = config.PORT#1234
+header_length = 10
+ip = "https://moonservo.netlify.com" 
+port = 1234
 
 # setup the server
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
